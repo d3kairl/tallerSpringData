@@ -9,4 +9,12 @@ public class OwnerService {
 
 	@Autowired
 	private  OwnerRepository ownRepo;
+
+	public OwnerRepository getOwnRepo() {
+		return ownRepo;
+	}
+
+	public void setOwnRepo(OwnerRepository ownRepo) {
+		this.ownRepo = ownRepo;
+	}
 }

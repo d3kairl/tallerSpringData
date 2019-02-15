@@ -9,4 +9,12 @@ public class PetService {
 
 	@Autowired
 	private PetRepository petRepo;
+
+	public PetRepository getPetRepo() {
+		return petRepo;
+	}
+
+	public void setPetRepo(PetRepository petRepo) {
+		this.petRepo = petRepo;
+	}
 }

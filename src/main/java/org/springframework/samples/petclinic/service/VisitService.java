@@ -9,4 +9,14 @@ public class VisitService {
 
 	@Autowired
 	private VisitRepository visitRepo;
+
+	public VisitRepository getVisitRepo() {
+		return visitRepo;
+	}
+
+	public void setVisitRepo(VisitRepository visitRepo) {
+		this.visitRepo = visitRepo;
+	}
+	
+	
 }

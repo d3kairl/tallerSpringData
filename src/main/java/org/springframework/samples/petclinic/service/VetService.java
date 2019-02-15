@@ -9,4 +9,13 @@ public class VetService {
 
 	@Autowired
 	private VetRepository vetRepo;
+
+	public VetRepository getVetRepo() {
+		return vetRepo;
+	}
+
+	public void setVetRepo(VetRepository vetRepo) {
+		this.vetRepo = vetRepo;
+	}
+
 }
